@@ -8,6 +8,8 @@
  */
 public class Vector {
 
+    /* ----- FIELDS ----- */
+
     /**
      * x component of Vector
      */
@@ -50,6 +52,8 @@ public class Vector {
         this.z = z;
     }
 
+    /* ----- GETTERS ----- */
+
     /**
      * Gets the x component of this Vector
      * 
@@ -58,8 +62,6 @@ public class Vector {
     public int getX() {
         return x;
     }
-
-    /* ----- GETTERS ----- */
 
     /**
      * Gets the y component of this Vector
